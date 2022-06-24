@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+ul {
+	list-style-type: none;
+}
+ul li a{
+	text-decoration: none;
+	color: #CCCCCC;
+	font-size: 1.618em;
+}
+ul li {
+	margin-top: 20px;
+	background-color: #393E46;
+	width: 150px;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	border-radius: 20px;
+}
+.navbar {
+	margin: 5em 0 0 1em;
+	position: fixed;
+}
+ul li:hover {
+	background-color: #8D93AB;
+	transition: 0.3s;
+}
+body {
+	background-color: #232931;
+}
+.titre {
+	text-align: center;
+	color: #F1F3F8;
+	font-family: 'Kanit', sans-serif;
+	font-size: 4.236em;
+}
+.vbody {
+	background-color: #393E46;
+	margin-left: 15em;
+	margin-right: 15em;
+	border-radius: 40px;
+	text-align: center;
+	padding: 0 20px 0 20px;
+}
+.vbody .vbody-title {
+	padding-top: 10px;
+	font-size: 2.618em;
+	color: #F1F3F8;
+	font-family: 'Roboto', sans-serif;
+}
+.vbody p {
+	color: #F1F3F8;
+	font-size: 1.618em;
+	font-family: 'Roboto', sans-serif;
+}
+.vbody .domains-img {
+	height: 500px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.active {
+	background-color: #404B69;
+}
+strong {
+	color: #F73859;
+}
+.img-exemple {
+	height: 300px;
+	background-color: #bfbfbf;
+	border-radius: 40px;
+	
+}
